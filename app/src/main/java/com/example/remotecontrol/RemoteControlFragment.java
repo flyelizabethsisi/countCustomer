@@ -39,6 +39,7 @@ public class RemoteControlFragment extends Fragment {
 
     public void minusCounter() {
         counter--;
+        if(counter<=0){initCounter();}
         mCurrent.setText(Integer.toString(counter));
     }
 
