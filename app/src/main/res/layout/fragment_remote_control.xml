@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_remote_control_tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".RemoteControlFragment">
+
+    <TextView
+        android:id="@+id/fragment_remote_control_current"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="15"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:text="zero"
+        android:textColor="#63635E"
+        android:textSize="150dp" />
+
+
+    <TableRow android:layout_weight="0">
+
+        <Button
+            android:id="@+id/fragment_remote_control_plus"
+            style="@style/RemoteButton"
+            android:background="#63635E"
+            android:text="+"
+            android:textColor="#FFEB3B"
+            android:textSize="100dp" />
+
+        <Button
+            android:id="@+id/fragment_remote_control_zero"
+            style="@style/RemoteButton"
+            android:background="#FFFFFF"
+            android:text="reset"
+            android:textColor="#63635E"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/fragment_remote_control_minus"
+            style="@style/RemoteButton"
+            android:background="#63635E"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="150dp" />
+
+
+    </TableRow>
+
+
+</TableLayout>
