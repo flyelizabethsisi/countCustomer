@@ -13,7 +13,7 @@
         android:layout_height="0dp"
         android:layout_margin="15dp"
         android:layout_weight="15"
-        android:background="#FFEB3B"
+        android:background="#CDDC39"
         android:gravity="center"
         android:text="zero"
         android:textColor="#63635E"
@@ -27,7 +27,7 @@
             style="@style/RemoteButton"
             android:background="#63635E"
             android:text="+"
-            android:textColor="#FFEB3B"
+            android:textColor="#CDDC39"
             android:textSize="100dp" />
 
         <Button
@@ -43,7 +43,7 @@
             style="@style/RemoteButton"
             android:background="#63635E"
             android:text="-"
-            android:textColor="#FFEB3B"
+            android:textColor="#CDDC39"
             android:textSize="150dp" />
 
 
